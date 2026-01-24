@@ -4,21 +4,39 @@
     box-sizing: border-box;
 }
 
-header {
+body {
+    width: 512px;
+}
+
+#app_header {
     border-color: black;
     border-style: solid;
     border-width: 1px;
+    padding: 1rem;
 }
 
+main {
+    padding: 1rem 2rem
+    min-height: 1000px;
+}
+
+
 .card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    min-height: 150px;
+
+
+
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    padding: 1rem;
     padding-bottom: 3rem;
     margin: 1rem 2rem;
 }
 
 footer {
     padding: 1rem
+    border-top: 2px solid black;
 }
