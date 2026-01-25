@@ -6,10 +6,10 @@
 
 body {
     width: 512px;
-    background-image: url(../img/memphis.jpg);
+    background-image: url(../img/memphis2.png);
     background-attachment: fixed;
-    padding-top : 5rem;;
-
+    background-size: cover;
+    padding-top : 5rem;
 }
 
 #app_header {
@@ -46,24 +46,27 @@ main {
     min-height: 150px;
     box-shadow: -9px -9px 5px #613B31;
     background-color: #F9E04F;
-
-
-
     border-color: black;
     border-style: solid;
     border-width: 2px;
     padding-bottom: 3rem;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
 }
 
 footer {
     padding: 1rem;
-    border-top: 2px solid red;
     font-family: 'Bungee', sans-serif;
-    background-color: #49AA7F;
+    text-align: center;
+    border-top: 2px solid #613B31;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    background-color: #E7623D;
     color: yellow;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 img {
