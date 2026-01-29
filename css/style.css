@@ -10,20 +10,28 @@ body {
     background-attachment: fixed;
     background-size: cover;
     padding-top : 5rem;
+    margin: auto;
 }
 
 #app_header {
+    font-family: 'Bungee', sans-serif;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    color: #F9E04F;
+    background-color: #49AA7F;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+
+/*correggendo esercizio */
+
     border-color: #FA0101;
     border-style: solid;
     border-width: 1px;
-    padding: 1rem;
-    color: #F9E04F;
-    background-color: #49AA7F;
-    font-family: 'Bungee', sans-serif;
     text-align: center;
-    text-shadow: 0 0 15px #FA0101;
+    text-shadow: 0 0 8px #FA0101;
     font-size: 1rem;
     position: fixed;  /* o sticky */
     top: 0;
