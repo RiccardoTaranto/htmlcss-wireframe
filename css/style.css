@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+/*Roots - Palette colori (HEX)
+	•	Nero profondo → #080505
+	•	Nero caldo / ombra → #613B31
+	•	Bianco → #F6F6F6
+	•	Grigio chiaro → #AAACA6
+	•	Arancione corallo / terracotta → #E7623D
+	•	Giallo acceso → #F9E04F
+	•	Verde menta / verde petrolio chiaro → #49AA7F
+	•	Rosso vivo → #FA0101
+    */
+
+
 body {
     width: 512px;
     background-image: url(../img/memphis2.png);
@@ -24,14 +36,12 @@ body {
     text-transform: uppercase;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-
-/*correggendo esercizio */
-
-    border-color: #FA0101;
+    box-shadow: 0px 0px 10px 3px #080505;
+    border-color: #080505;
     border-style: solid;
     border-width: 1px;
     text-align: center;
-    text-shadow: 0 0 8px #FA0101;
+    text-shadow: 0px 0px 10px #fa0101;
     font-size: 1rem;
     position: fixed;  /* o sticky */
     top: 0;
@@ -40,52 +50,27 @@ body {
     z-index: 1000;
 }
 
-
 main {
     padding: 1rem 1rem;
     min-height: 1000px;
 }
 
-
 .card {
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid rgb(212, 212, 212);
+    border: 50px solid rgb(212, 212, 212);
     min-height: 150px;
-    box-shadow: -9px -9px 5px #613B31;
+    box-shadow: 0px 0px 10px 3px #080505;
     background-color: #F9E04F;
-    border-color: black;
+    border-color: #080505;
     border-style: solid;
     border-width: 2px;
     padding-bottom: 3rem;
     margin: 2rem 2rem;
 }
 
-footer {
-    padding: 1rem;
-    font-family: 'Bungee', sans-serif;
-    text-align: center;
-    border-top: 2px solid #613B31;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    background-color: #E7623D;
-    color: yellow;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-
 img {
     width: 100px;
-}
-
-p {
-    line-height: 1.75rem;
-    font-family: 'Rubik', sans-serif;
-    color: #3A3A3A;
-
 }
 
 h2 {
@@ -95,21 +80,32 @@ h2 {
     color: #080505;
 }
 
+p {
+    color: #3A3A3A;
+    line-height: 1.75rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
 span {
     font-weight: bold;
     color: red;
     text-decoration: underline;
 }
 
+footer {
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 3px #080505;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: #E7623D;
+    color: yellow;
+    text-align: center;
+    font-family: 'Bungee', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
-
-
-/*Palette colori (HEX)
-	•	Nero profondo → #080505
-	•	Nero caldo / ombra → #613B31
-	•	Bianco → #F6F6F6
-	•	Grigio chiaro → #AAACA6
-	•	Arancione corallo / terracotta → #E7623D
-	•	Giallo acceso → #F9E04F
-	•	Verde menta / verde petrolio chiaro → #49AA7F
-	•	Rosso vivo → #FA0101*/
