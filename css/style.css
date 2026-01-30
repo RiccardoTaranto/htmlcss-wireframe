@@ -18,7 +18,7 @@
 
 body {
     width: 512px;
-    background-image: url(../img/memphis2.png);
+    background-image: url(../img/memphis.png);
     background-attachment: fixed;
     background-size: cover;
     padding-top : 5rem;
@@ -70,7 +70,9 @@ main {
 }
 
 img {
-    width: 100px;
+    width: 230px;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
 }
 
 h2 {
