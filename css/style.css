@@ -67,6 +67,7 @@ main {
     border-width: 8px;
     border-radius: 10%;
     margin: 2rem 2rem;
+    position: relative;
 }
 
 .badge {
@@ -74,11 +75,11 @@ main {
     margin: 1rem;
     padding: 0.5rem 1rem;
     font-family: 'Rubik', sans-serif;
-    position: relative;
-    top: 0%;
-    left: 85%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: 800;
     border-radius: 10%;
 }
 
