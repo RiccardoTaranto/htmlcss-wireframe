@@ -35,12 +35,11 @@ body {
     letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
     box-shadow: 0px 0px 10px 3px #080505;
     border-color: #080505;
     border-style: solid;
-    border-width: 1px;
     text-align: center;
     text-shadow: 0px 0px 10px #fa0101;
     font-size: 1rem;
@@ -61,11 +60,12 @@ main {
     margin-bottom: 1rem;
     border: 50px solid rgb(212, 212, 212);
     min-height: 150px;
-    box-shadow: 0px 0px 10px 3px #080505;
+    /* box-shadow: 0px 0px 10px 3px #080505; */
     background-color: #F9E04F;
     border-color: #080505;
     border-style: solid;
-    border-width: 2px;
+    border-width: 8px;
+    border-radius: 10%;
     padding-bottom: 3rem;
     margin: 2rem 2rem;
 }
@@ -99,8 +99,8 @@ span {
 footer {
     padding: 1rem;
     box-shadow: 0px 0px 10px 3px #080505;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     background-color: #E7623D;
     color: yellow;
     text-align: center;
