@@ -72,7 +72,6 @@ main {
 .badge {
     background-color: #FA0101;
     margin: 1rem;
-    width: fit-content;
     padding: 0.5rem 1rem;
     font-family: 'Rubik', sans-serif;
     position: relative;
