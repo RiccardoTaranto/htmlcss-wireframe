@@ -60,14 +60,12 @@ main {
     padding: 1rem;
     margin-bottom: 1rem;
     border: 50px solid rgb(212, 212, 212);
-    min-height: 500px;
-    /*box-shadow: 0px 0px 10px 3px #080505;*/
+    min-height: 450px;
     background-color: #F9E04F;
     border-color: #080505;
     border-style: solid;
     border-width: 8px;
     border-radius: 10%;
-    padding-bottom: 3rem;
     margin: 2rem 2rem;
 }
 
@@ -90,6 +88,9 @@ img {
     padding-block: 0.5rem;
     padding-inline-start: 0%;
     padding-inline-end: 0%;
+    top: 0;
+    left: 29%;
+    position: relative;
 }
 
 h2 {
