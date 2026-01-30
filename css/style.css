@@ -75,7 +75,7 @@ main {
     padding: 0.5rem 1rem;
     font-family: 'Rubik', sans-serif;
     position: relative;
-    top: 0;
+    top: 0%;
     left: 85%;
     color: whitesmoke;
     font-weight: bold;
@@ -108,7 +108,7 @@ p {
 
 }
 
-span {
+#keywords {
     font-weight: bold;
     color: red;
     text-decoration: underline;
