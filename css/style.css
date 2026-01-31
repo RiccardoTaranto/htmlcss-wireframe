@@ -38,7 +38,6 @@ body {
     text-transform: uppercase;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
-    box-shadow: 0px 0px 10px 3px #080505;
     border-color: #080505;
     border-style: solid;
     text-align: center;
@@ -58,15 +57,12 @@ main {
 
 .card {
     padding: 1rem;
-    margin-bottom: 1rem;
-    border: 50px solid rgb(212, 212, 212);
+    margin: 2rem;
     min-height: 450px;
+    box-shadow: 6px 6px 0 #080505;
     background-color: #F9E04F;
-    border-color: #080505;
-    border-style: solid;
-    border-width: 8px;
+    border: 8px solid #080505;
     border-radius: 10%;
-    margin: 2rem 2rem;
     position: relative;
 }
 
@@ -80,7 +76,9 @@ main {
     right: 1rem;
     color: whitesmoke;
     font-weight: 800;
-    border-radius: 10%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px
 }
 
 img {
@@ -88,9 +86,6 @@ img {
     padding-block: 0.5rem;
     padding-inline-start: 0%;
     padding-inline-end: 0%;
-    top: 0;
-    left: 0%;
-    position: relative;
 }
 
 h2 {
@@ -98,6 +93,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #080505;
     padding-left: 0.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 p {
@@ -107,7 +104,7 @@ p {
     padding-left: 0.5rem;
 }
 
-#keywords {
+#keyword {
     font-weight: bold;
     color: red;
     text-decoration: underline;
