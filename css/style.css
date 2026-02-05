@@ -44,9 +44,7 @@
 }
 
 body {
-    max-width: 512px;
     margin: 0 auto;
-    padding-top: 5rem;
     padding-bottom: 5rem;
     background-image: url(../img/memphis.png);
     background-attachment: fixed;
@@ -123,9 +121,13 @@ footer {
     font-family: 'Bungee', sans-serif;
     position: fixed;
     bottom: 0;
-    left: 50%;
+    left: 0;
+    width: 100%;
+
+
+    /*left: 50%;
     transform: translateX(-50%);
-    width: auto;
+    width: auto;*/
 
     #chat {
         position: fixed;
