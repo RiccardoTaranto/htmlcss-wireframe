@@ -44,7 +44,6 @@
 }
 
 body {
-    margin: 0 auto;
     padding-bottom: 5rem;
     background-image: url(../img/memphis.png);
     background-attachment: fixed;
@@ -52,7 +51,7 @@ body {
 }
 
 main {
-    margin-top: 4rem;
+    margin-top: 1rem;
     padding: 1rem 2rem;
     min-height: 1000px;
 }
@@ -125,10 +124,6 @@ footer {
     width: 100%;
 
 
-    /*left: 50%;
-    transform: translateX(-50%);
-    width: auto;*/
-
     #chat {
         position: fixed;
         bottom: 3rem;
@@ -139,4 +134,10 @@ footer {
         border-style: none;
     }
 
+}
+
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
 }
