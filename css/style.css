@@ -1,143 +1,187 @@
+/* google fonts option 2 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Storm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Roots - Palette colori (HEX)
-	•	Nero profondo → #080505
-	•	Nero caldo / ombra → #613B31
-	•	Bianco → #F6F6F6
-	•	Grigio chiaro → #AAACA6
-	•	Arancione corallo / terracotta → #E7623D
-	•	Giallo acceso → #F9E04F
-	•	Verde menta / verde petrolio chiaro → #49AA7F
-	•	Rosso vivo → #FA0101
-    */
+body {
 
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Open Sans", sans-serif;
+    /*   background-image: url('../img/pic3.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
 
+/* From the google fonts website 
+.rubik-storm-regular
+{
+  font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
 #app_header {
-    font-family: 'Bungee', sans-serif;
+    font-family: "Rubik Moonrocks", sans-serif;
     padding: 1rem;
-    border-bottom: 10px solid #080505;
-    color: #F9E04F;
-    background-color: #49AA7F;
+    border-bottom: 2px solid rgb(63, 2, 124);
+    color: white;
+    background-color: rebeccapurple;
     letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    text-shadow: 0px 0px 10px #FA0101;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    text-shadow: 0 0 8px fuchsia;
     position: sticky;
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
+    /*   width: 100%; */
 
-    .menu-icon {
-        font-size: 1.8rem;
-        cursor: pointer;
-        position: absolute;
-        right: 1rem;
-        top: 25%;
-    }
 }
 
-body {
-    padding-bottom: 5rem;
-    background-image: url(../img/memphis.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 main {
-    margin-top: 1rem;
-    padding: 1rem 2rem;
+    /*   margin-top: 4rem; */
+    /*  padding: 1rem 2rem; */
     min-height: 1000px;
 }
 
 .card {
     position: relative;
     padding: 1rem;
-    margin: 2rem;
-    margin-bottom: 1rem;
+    /* border: 1px solid rgb(212, 212, 212); */
     min-height: 150px;
-    box-shadow: 6px 6px 0 #080505;
-    background-color: #F9E04F;
-    border: 8px solid #080505;
-    border-radius: 2rem;
-
-    img {
-        width: 150px;
-        padding-block: 0.5rem;
-    }
-
-    h2 {
-        margin-bottom: 0.5rem;
-        font-family: 'Montserrat', sans-serif;
-        color: #080505;
-        padding-left: 0.5rem;
-        font-weight: 800;
-        letter-spacing: 1px;
-    }
-
-    p {
-        color: #3A3A3A;
-        line-height: 1.75rem;
-        font-family: 'Rubik', sans-serif;
-        padding-left: 0.5rem;
-    }
-
+    box-shadow: 0px 0px 10px 3px #dcdcdc;
+    background-color: rgba(255, 255, 255, 0.486);
 }
 
-#keyword {
-    font-weight: bold;
-    color: red;
-    text-decoration: underline;
+img {
+    width: 100px;
+    object-fit: cover;
 }
 
 .badge {
-    background-color: #FA0101;
-    margin: 1rem 0.5rem;
-    padding: 0.5rem 1rem;
-    font-family: 'Rubik', sans-serif;
+    background-color: red;
+    color: white;
     position: absolute;
+    padding: 0.25rem 1rem;
+    right: 0;
     top: 1rem;
-    right: 1rem;
-    color: whitesmoke;
-    font-weight: 800;
-    border-radius: 0.5rem;
-    letter-spacing: 1px
+    /* transform: translateX(50%); */
 }
+
+
+h2 {
+    text-shadow: 0 0 2px fuchsia;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: rgb(34, 34, 34);
+    line-height: 1.75rem;
+}
+
+span {
+    text-decoration: underline;
+}
+
 
 footer {
     padding: 1rem;
-    border-top: 10px solid #080505;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    background-color: #E7623D;
+    border-top: 2px solid rgb(63, 2, 124);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-color: rebeccapurple;
+    color: white;
     text-align: center;
-    font-family: 'Bungee', sans-serif;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+}
 
-
-    #chat {
-        position: fixed;
-        bottom: 3rem;
-        right: 3rem;
-        padding: 1rem;
-        font-size: 1.5rem;
-        border-radius: 1rem;
-        border-style: none;
-    }
+/* 
+#app_header
+{
+  font-family: "Rubik Moonrocks", sans-serif;
+  padding: 1rem;
+  border-bottom: 2px solid rgb(63, 2, 124);
+  color: white;
+  background-color: rebeccapurple;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  text-shadow: 0 0 8px fuchsia;
 
 }
+*/
+
+#chat {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+/* ================================================================================
+==================LAYOUT DESKTOP ================================================= */
+
+/* Container *Layout element */
 
 .container {
     max-width: 900px;
-    width: 80%;
     margin: 0 auto;
+}
+
+section {
+    background-color: lightcyan;
+}
+
+/* Griglia in flex */
+.card_deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .card {
+        width: calc(100% / 3 - (15px * 2) / 3);
+        min-width: 290px;
+        flex-grow: 1;
+        flex-shrink: 0;
+
+    }
+}
+
+/* Griglia container>row>col */
+/* row *Layout element */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* col *layout element */
+.col {
+    width: calc(100% / 3 - (15px * 2) / 3);
+    min-width: 290px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+.custom-card {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid rgb(212, 212, 212);
+    min-height: 150px;
+    box-shadow: 0px 0px 10px 3px #dcdcdc;
+    background-color: rgba(255, 255, 255, 0.486);
 }
